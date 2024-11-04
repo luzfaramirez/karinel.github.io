@@ -1,0 +1,61 @@
+.custom-footer {
+    width: 100%;
+    margin: 0; /* Elimina márgenes */
+    padding: 0; /* Elimina paddings */
+    background-color: #f8f9fa; /* Puedes elegir el color que desees */
+}
+
+.footer-heading {
+    font-weight: bold; /* Mejora la legibilidad de los títulos */
+}
+
+.footer-text {
+    margin: 0; /* Elimina márgenes en el texto de copyright */
+}
+
+/* Estilos del footer */
+.custom-footer {
+    background-color: #574A42; /* Color de fondo del footer */
+    color: #f8f9fa; /* Color del texto en blanco */
+    width: 100%; /* Asegura que ocupe todo el ancho de la pantalla */
+    position: relative; /* Mantiene el footer en su lugar */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Asegura que el contenido dentro del footer ocupe el 100% del ancho */
+.custom-footer .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Tipografía personalizada del footer */
+.footer-heading {
+    font-family: 'Marcellus', serif; /* Tipografía del título */
+    font-size: 18px; /* Tamaño de la tipografía */
+    color: #f8f9fa;
+}
+
+.footer-text, .footer-link, .list-unstyled li {
+    font-family: 'Actor', sans-serif; /* Tipografía del cuerpo del footer */
+    font-size: 16px;
+    color: #f8f9fa;
+}
+
+/* Estilos de los enlaces del footer */
+.footer-link {
+    color: #f8f9fa; /* Color blanco para los enlaces */
+    text-decoration: none; /* Elimina el subrayado */
+}
+
+.footer-link:hover {
+    color: #f0ad4e; /* Color naranja cuando se pasa el cursor */
+    text-decoration: underline; /* Subrayado en hover */
+}
+
+/* Asegura que el footer ocupe toda la pantalla en dispositivos móviles */
+@media (max-width: 768px) {
+    .custom-footer {
+        text-align: center; /* Centra el texto en pantallas pequeñas */
+    }
+}

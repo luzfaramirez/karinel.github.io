@@ -1,0 +1,152 @@
+.nav-link {
+    color: #fff; /* Color por defecto del texto (blanco) */
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+    color: #6f4c3e; /* Cambia este color al café que prefieras */
+    text-decoration: none; /* Opcional: quita el subrayado */
+}
+
+.dropdown-item:hover {
+    background-color: #6f4c3e; /* Cambia el fondo del ítem del menú desplegable al pasar el ratón */
+    color: #fff; /* Cambia el color del texto en el ítem del menú desplegable */
+}
+
+
+
+body {
+    background-color: #f7f7f7;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    border-radius: 15px 15px 0 0;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-top: 15px;
+    color: #5d3a3a;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #757575;
+}
+
+.price {
+    font-size: 1.25rem;
+    color: #d9534f;
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: #f07818;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #d9534f;
+}
+
+
+.custom-footer {
+    background-color: #574A42; /* Cambia el color de fondo si es necesario */
+}
+
+.footer-heading {
+    margin-bottom: 1rem; /* Espaciado inferior para los encabezados */
+}
+
+.footer-text {
+    margin-top: 1rem; /* Espaciado superior para el texto de copyright */
+}
+.logo-margin {
+    margin-left: -3px; /* Ajusta el valor según sea necesario */
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.product-card {
+    background-color: #F8F4F4; /* Color de fondo similar al de la imagen */
+    border: 3px solid #AB87A7; /* Bordes en color morado */
+}
+
+.product-title {
+    color: #6B4A78; /* Color del título */
+}
+
+.product-description {
+    color: #574A42; /* Color de la descripción */
+}
+
+.product-price {
+    color: #E9D3E0; /* Color del precio */
+}
+
+.btn {
+    background-color: #FFAB63; /* Color del botón */
+    border: none;
+}
+
+.btn:hover {
+    background-color: #E69557; /* Color del botón al pasar el ratón */
+}
+
+@media (max-width: 768px) {
+    .product-card {
+        text-align: center;
+    }
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.product-card {
+    background-color: #F8F4F4; /* Color de fondo similar al de la imagen */
+    border: 3px solid #AB87A7; /* Bordes en color morado */
+}
+
+.product-title {
+    color: #6B4A78; /* Color del título */
+}
+
+.product-description {
+    color: #574A42; /* Color de la descripción */
+}
+
+.product-price {
+    color: #E9D3E0; /* Color del precio */
+}
+
+.btn {
+    background-color: #FFAB63; /* Color del botón */
+    border: none;
+}
+
+.btn:hover {
+    background-color: #E69557; /* Color del botón al pasar el ratón */
+}
+
+@media (max-width: 768px) {
+    .product-card {
+        text-align: center;
+    }
+}

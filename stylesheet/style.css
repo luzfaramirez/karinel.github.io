@@ -1,0 +1,405 @@
+/* Imagen de fondo responsive */
+.bk-image {
+    width: 100%;
+    height: auto; /* Ajustar altura automáticamente */
+    max-height: 100vh; /* Evitar que se estire más que la altura visible */
+    object-fit: cover; /* Cubre el área sin perder proporciones */
+}
+
+/* Estilos generales para el logo */
+.logo {
+    width: 50px;
+}
+
+/* Hacer el menú visible en pantallas móviles */
+.navbar-toggler {
+    display: block; /* Asegurar que el botón de menú sea visible */
+    border: none; /* Remover bordes innecesarios */
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+/* Asegurar que el contenido colapsado esté visible cuando se despliega */
+.collapse.show {
+    display: flex !important;
+    flex-direction: column;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    .navbar-collapse {
+        flex-direction: column; /* Colocar el menú en columna */
+        align-items: flex-start; /* Alinear el contenido a la izquierda */
+    }
+
+    .menu a {
+        font-size: 16px; /* Tamaño de texto más pequeño */
+        margin: 10px 0; /* Separación entre elementos */
+    }
+
+    .logo {
+        width: 40px; /* Reducir el tamaño del logo */
+    }
+
+    .navbar-toggler {
+        width: 30px; /* Ajustar el tamaño del botón */
+        height: 30px;
+    }
+
+    .navbar-toggler-icon {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* Estilos para dispositivos muy pequeños */
+@media (max-width: 412px) {
+    .menu a {
+        font-size: 14px;
+        margin: 5px 0; /* Reducir márgenes */
+    }
+
+    .logo {
+        width: 35px; /* Tamaño del logo aún más pequeño */
+    }
+
+    .navbar-toggler {
+        width: 25px;
+        height: 25px;
+    }
+
+    .navbar-toggler-icon {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+
+@media (max-width: 733px) {
+    .navbar-collapse {
+        display: flex !important; /* Asegura que el menú siempre se muestre */
+    }
+
+    .menu {
+        padding: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-toggler {
+        border: none; /* Remueve el borde */
+    }
+}
+
+
+.nav-link {
+    color: #fff; /* Color por defecto del texto (blanco) */
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+    color: #6f4c3e; /* Cambia este color al café que prefieras */
+    text-decoration: none; /* Opcional: quita el subrayado */
+}
+
+.dropdown-item:hover {
+    background-color: #6f4c3e; /* Cambia el fondo del ítem del menú desplegable al pasar el ratón */
+    color: #fff; /* Cambia el color del texto en el ítem del menú desplegable */
+}
+
+.overlay-title {
+    background-color: rgba(255, 255, 255, 0.122); /* Fondo semi-transparente */
+    padding: 10px;
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 2rem; /* Tamaño de fuente grande */
+    z-index: 10; /* Asegura que el texto esté por encima de otros elementos */
+}
+
+
+
+/* Blanqueaditas (card) */
+.bl_title_blanqueaditas {
+    font-family: 'Marcellus', serif;
+    font-size: 24px;
+}
+
+.bl_text_blanqueaditas {
+    font-family: 'Actor', sans-serif;
+    font-size: 18px;
+}
+
+.bl_btn_blanqueaditas {
+    background-color: #FFAB63;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.bl_btn_blanqueaditas:hover {
+    background-color: #AB87A7;
+    color: white;
+}
+
+.bl_btn_blanqueaditas:active {
+    background-color: #574A42;
+    border-color: #574A42;
+}
+
+/* Jamón y queso (card) */
+.bl_title_jamon {
+    font-family: 'Marcellus', serif;
+    font-size: 24px;
+}
+
+.bl_text_jamon {
+    font-family: 'Actor', sans-serif;
+    font-size: 18px;
+}
+
+.bl_btn_jamon {
+    background-color: #FFAB63;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.bl_btn_jamon:hover {
+    background-color: #AB87A7;
+    color: white;
+}
+
+.bl_btn_jamon:active {
+    background-color: #574A42;
+    border-color: #574A42;
+}
+
+/* Pie de manzana (card) */
+.bl_title_pie {
+    font-family: 'Marcellus', serif;
+    font-size: 24px;
+}
+
+.bl_text_pie {
+    font-family: 'Actor', sans-serif;
+    font-size: 18px;
+}
+
+.bl_btn_pie {
+    background-color: #FFAB63;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.bl_btn_pie:hover {
+    background-color: #AB87A7;
+    color: white;
+}
+
+.bl_btn_pie:active {
+    background-color: #574A42;
+    border-color: #574A42;
+}
+
+/* Blanqueaditas (segunda fila, primer card) */
+.bl_title_blanqueaditas2 {
+    font-family: 'Marcellus', serif;
+    font-size: 24px;
+}
+
+.bl_text_blanqueaditas2 {
+    font-family: 'Actor', sans-serif;
+    font-size: 18px;
+}
+
+.bl_btn_blanqueaditas2 {
+    background-color: #FFAB63;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.bl_btn_blanqueaditas2:hover {
+    background-color: #AB87A7;
+    color: white;
+}
+
+.bl_btn_blanqueaditas2:active {
+    background-color: #574A42;
+    border-color: #574A42;
+}
+
+/* Jamón y queso (segunda fila, segundo card) */
+.bl_title_jamon2 {
+    font-family: 'Marcellus', serif;
+    font-size: 24px;
+}
+
+.bl_text_jamon2 {
+    font-family: 'Actor', sans-serif;
+    font-size: 18px;
+}
+
+.bl_btn_jamon2 {
+    background-color: #FFAB63;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.bl_btn_jamon2:hover {
+    background-color: #AB87A7;
+    color: white;
+}
+
+.bl_btn_jamon2:active {
+    background-color: #574A42;
+    border-color: #574A42;
+}
+
+/* Pie de manzana (segunda fila, tercer card) */
+.bl_title_pie2 {
+    font-family: 'Marcellus', serif;
+    font-size: 24px;
+}
+
+.bl_text_pie2 {
+    font-family: 'Actor', sans-serif;
+    font-size: 18px;
+}
+
+.bl_btn_pie2 {
+    background-color: #FFAB63;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.bl_btn_pie2:hover {
+    background-color: #AB87A7;
+    color: white;
+}
+
+.bl_btn_pie2:active {
+    background-color: #574A42;
+    border-color: #574A42;
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family: actorregular;
+    src: url('../fonts/Actor-Regular.ttf');
+
+    font-family: impacted;
+    src: url('../fonts/Impacted.ttf');
+
+    font-family: marcellusregular;
+    src: url('../fonts/Marcellus-Regular.ttf');
+
+    font-family: unicode;
+    src: url('../fonts/unicode.impact.ttf');
+
+}
+
+body {
+    margin: 0; /*Eliminar márgenes predeterminados */
+    font-family: 'Actor', sans-serif; /* Fuente personalizada */
+    position: relative; /*Posicionamiento relativo para el fondo*/
+}
+.bk-image {
+    width: 100%; /*Ancho completo de la imagen*/
+    height: 100vh; /*Alto automático para mantener la proporción */
+}
+.menu {
+    position: absolute; /* Posicionamiento absoluto para superponer sobre la imagen */
+    top: 20px; /* Espacio desde la parte superior */
+    left: 20px; /* Espacio desde la izquierda */
+    right: 20px; /* Espacio desde la derecha */
+    background-color: rgba(0, 0, 0, 0); /* Fondo semi-transparente */
+    border: 2px solid white; /* Borde blanco */
+    padding: 10px; /* Espacio interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
+.logo {
+    width: 50px; /* Tamaño del logo */
+    margin-right: 20px; /* Espacio a la derecha del logo */
+}
+.menu a {
+    color: white; /* Color del texto en blanco */
+    margin-left: 20px; /* Espaciado entre botones */
+    text-decoration: none; /* Eliminar subrayado en enlaces */
+    display: flex; /* Usar flexbox para alinear íconos y texto */
+    align-items: center; /* Alinear verticalmente */
+}
+.menu a img {
+    margin-left: 5px; /* Espacio entre el texto y el ícono */
+}
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente para el menú desplegable */
+}
+.titulo_hechoamano{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    color: rgb(41, 19, 3);
+}
+
+.historia_parrafo{
+    font-family: var(Marcellus-Regular);
+    font-size: 20px;
+
+}
+
+.productos_menu{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.home_menu{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.pedidos_menu{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+.bl_card1{
+    font-family: marcellusregular;
+    src: url('../fonts/Marcellus-Regular.ttf');
+    font-size: 20px;
+
+}
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        align-items: flex-start; /* Alinear a la izquierda */
+        display: none; /* Ocultar menú por defecto */
+    }
+    .menu.show {
+        display: flex; /* Mostrar menú cuando se activa */
+    }
+}
+
+.carousel-inner img {
+    height: 100vh; /* Asegura que las imágenes del slider ocupen la altura completa de la pantalla */
+    object-fit: cover; /* Ajusta la imagen para que se ajuste al contenedor */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar-collapse {
+        display: block !important; /* Asegura que el menú sea visible en tablets */
+    }
+}
+
+.custom-footer {
+    width: 100%; /* Asegura que el footer se extienda a todo el ancho de la pantalla */
+    background-color: #f8f9fa; /* Cambia esto por tu color preferido */
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
